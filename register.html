@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Rigester Now</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{text-align: center ; font-family: Arial, Helvetica, sans-serif; font-style: oblique;}
+            form 
+            {
+                 width: 60%; 
+                 height: 120%;
+                 background-color: rgb(241, 203, 203);
+                 margin-top: 50px; margin-left: 250px;
+                 padding-top: 20px;
+                 padding-left: 20px; 
+                 font-style: normal;
+                 font-size: 25;
+                 position: relative;
+            }
+            input{height: 30px;}
+            span{ float: left;}
+        </style>
+    </head>
+    <body>
+     <form action="confirmation.html" method="GET">
+        <h1> Rigester Now</h1>
+        <span>
+            <label for="name"> Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="tname"  required><br><br><br>
+            <label for="name"> Phone:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="tphone"  required><br><br><br>
+            <label for="name"> Address:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="taddress" required><br><br><br>
+            <label for="name"> Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="temail"  required><br><br><br>
+            <label for="name"> School:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="eschool" ><br><br><br>
+            <label for="name"> Birth Date:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" name="tbd" ><br><br><br>
+            <label for="name"> Lecture Date:</label>&nbsp;&nbsp;
+            <input type="date" name="tld" >
+
+        </span>
+        
+        <span style="padding-left: 50px;">
+            <label for="name"> Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="password" name="tpassword"   required><br><br><br>
+            <label for="name"> Confirm Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="password"  required ><br><br><br>
+          
+            <fieldset>
+                <legend>Type :</legend>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                 <label for="female">Female</label><br>
+            </fieldset><br><br><br><br>
+          <!--  <input type="reset" name="reset" value="Reset" style="width: 250px; height: 55px; font-size: 40; color: rgb(221, 188, 221); background-color: darkslategray; border-radius: 20px; float: right;>-->
+         <!--  <button    style="width: 250px; height: 55px; font-size: 40; color: rgb(221, 188, 221); background-color: rgb(121, 158, 158); border-radius: 20px; float: right; >
+                Register
+            </button>--> 
+            <input type="reset" name="resetdata" value="Reset" style=" width: 250px; height: 55px; font-size: 40; color: rgb(221, 188, 221); background-color:lightslategray; border-radius: 20px; float:right"><br><br>
+            <button name="registerdata" value="register" style=" width: 250px; height: 55px; font-size: 40; color: rgb(221, 188, 221); background-color:lightslategray; border-radius: 20px; float:right">
+                Register
+            </button>
+         
+           
+        </span>
+
+    </form>
+    </body>
+</html>
